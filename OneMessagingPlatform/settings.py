@@ -38,7 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'corsheaders',
-    'authentication'
+    'authentication',
+    "message.apps.MessageConfig",
+    "subscription.apps.SubscriptionConfig"
 ]
 
 REST_FRAMEWORK = {
