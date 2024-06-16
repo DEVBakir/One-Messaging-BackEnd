@@ -1,1 +1,10 @@
 .venv
+db.sqlite3
+*.sqlite3
+.idea
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+
+# Ignore __pycache__ directories
+__pycache__/
